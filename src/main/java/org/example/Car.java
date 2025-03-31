@@ -1,14 +1,14 @@
 package org.example;
 
 public class Car {
-    private String model;
     private String make;
+    private String model;
     private int year;
     private double price;
 
-    public Car(String model, String make, int year, double price) {
-        this.model = model;
+    public Car(String make, String model, int year, double price) {
         this.make = make;
+        this.model = model;
         this.year = year;
         this.price = price;
     }

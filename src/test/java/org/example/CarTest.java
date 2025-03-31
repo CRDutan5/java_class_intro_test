@@ -16,8 +16,8 @@ public class CarTest {
     @Test
     public void testParameterizedConstructor() {
         Car car = new Car("Toyota", "Camry", 2022, 25000.0);
-        assertEquals("Camry", car.getMake());
-        assertEquals("Toyota", car.getModel());
+        assertEquals("Toyota", car.getMake());
+        assertEquals("Camry", car.getModel());
         assertEquals(2022, car.getYear());
         assertEquals(25000.0, car.getPrice(), 0.0);
     }
